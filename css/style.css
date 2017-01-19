@@ -60,19 +60,19 @@ section h1,
 ------------------------------------------------------------*/
 header {
     height:500px;
-    padding-top: calc(300 / 1000 * 100%);
+    padding-top: calc(1000 / 2000 * 100%);
     background: url('main_01.jpg') 0 0 no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin:0px;
     padding:0px;
 }
 
 @media (max-width: 768px) {
 header {
-    height:500px;
-    padding-top: calc(700 / 1000 * 100%);
-    background: url('main_02.jpg') 0 0 no-repeat;
-    background-size: contain;
+    height:250px;
+    padding-top: calc(600 / 2000 * 100%);
+    background: url('main_01.jpg') 0 0 no-repeat;
+    background-size: cover;
     margin:0px;
     padding:0px;
 }
